@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---------------------------------- 
+     type : 类型
+----------------------------------->
+<server type="URL">
+	<IPPort IP="127.0.0.1" Port="8080"/>	
+	<device URLID="testproxystream1" realityURL="rtsp://admin:12345@192.168.15.201/h264/ch1/main/av_stream"/>
+	<device URLID="testproxystream2" realityURL="rtsp://admin:12345@192.168.15.201/h264/ch2/main/av_stream"/>	
+</server>
