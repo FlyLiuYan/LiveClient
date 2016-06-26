@@ -9,9 +9,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     setWindowFlags(Qt::CustomizeWindowHint);
     setWindowFlags(Qt::FramelessWindowHint);
-    //QMetaObject::connectSlotsByName(this);
-    //connect(pushbutton,SIGNAL(ui->labelclose)),this,SLOT(on_pushbutton_clicked()));
-   // connect()
 
     XmlFile::GetInstance()->m_FileIPMap;
 }

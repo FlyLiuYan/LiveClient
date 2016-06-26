@@ -2,7 +2,7 @@
 #define HALLDLG_H
 
 #include <QDialog>
-
+#include <QUrl>
 namespace Ui {
 class HallDlg;
 }
@@ -17,6 +17,10 @@ public:
      void closeEvent(QCloseEvent *event);
  signals:
 
+
+private slots:
+     void on_pushButton_close_clicked();
+     void openUrlSlot(QUrl url);
 
 private:
     Ui::HallDlg *ui;
